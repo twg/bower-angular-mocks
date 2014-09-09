@@ -127,7 +127,7 @@ angular.mock.$Browser = function() {
     }
   };
 
-  self.$$baseHref = '';
+  self.$$baseHref = '/';
   self.baseHref = function() {
     return this.$$baseHref;
   };
